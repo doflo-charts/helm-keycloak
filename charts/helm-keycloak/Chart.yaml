@@ -1,7 +1,7 @@
 apiVersion: v2
 name: keycloak
-version: 17.0.1
-appVersion: v1.0.0
+version: 0.0.1-replace
+appVersion: v17.0.1
 description: Open Source Identity and Access Management For Modern Applications and Services
 keywords:
   - sso
@@ -17,10 +17,9 @@ sources:
   - https://github.com/jboss-dockerfiles/keycloak
   - https://github.com/bitnami/charts/tree/master/bitnami/postgresql
 maintainers:
-  - name: unguiculus
-    email: unguiculus@gmail.com
-  - name: thomasdarimont
-    email: thomas.darimont+github@gmail.com
+  - name: doFlo Infrastructure Team
+    email: infra@doflo.com
+    url: https://infra.doflo.com
 dependencies:
   - name: postgresql
     version: 10.3.13
