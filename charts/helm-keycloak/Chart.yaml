@@ -1,7 +1,7 @@
 apiVersion: v2
 name: keycloak
 version: 0.0.1-replace
-appVersion: v17.0.1
+appVersion: v17.0.0
 description: Open Source Identity and Access Management For Modern Applications and Services
 keywords:
   - sso
@@ -11,7 +11,7 @@ keywords:
   - kerberos
   - ldap
 home: https://www.keycloak.org/
-icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
+icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
 sources:
   - https://github.com/codecentric/helm-charts
   - https://github.com/jboss-dockerfiles/keycloak
