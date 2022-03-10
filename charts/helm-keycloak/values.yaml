@@ -5,11 +5,11 @@ fullnameOverride: ""
 nameOverride: ""
 
 # The number of replicas to create (has no effect if autoscaling enabled)
-replicas: 1
+replicas: 3
 
 image:
   # The Keycloak image repository
-  repository: 542393931612.dkr.ecr.us-west-2.amazonaws.com/istio-operator
+  repository: 542393931612.dkr.ecr.us-west-2.amazonaws.com/keycloak
   # Overrides the Keycloak image tag whose default is the chart appVersion
   tag: ""
   # The Keycloak image pull policy
